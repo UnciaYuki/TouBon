@@ -1,0 +1,122 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+.alignCenter {
+    align-items: center;
+  }
+
+.center {
+    justify-items: center;
+}
+/* margin */
+
+.margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.margin20 {
+    margin: 20px;
+}
+
+/* Couleur bg */
+.bg {
+    background: #FFE5F1;
+}
+
+/* Titre + Texte */
+
+.text1 {
+    color: black;
+}
+
+/* Image */
+.imglogo {
+    width: 100px;
+    height: auto;
+}
+
+.imgHero {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* Header */
+.paddingH {
+    padding: 20px
+}
+
+.tailleH {
+    width: 100%;
+}
+
+header li {
+    list-style: none;
+}
+
+/* Nav */
+.navhd {
+    width: 800px;
+}
+
+/* Bouton */
+
+.btn {
+    background-color: #570026;
+    padding: 16px 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    margin-top: 100px;
+}
+
+/* Hero */
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.phrasediv {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.h2Padding {
+    padding-bottom: 30px;
+}
