@@ -3,9 +3,17 @@
   "phraseAccroche": "Succombez à la délicatesse sucrée avec TouBon, votre pâtisserie gourmande à Auxerre",
   "texteAppelAction": "Découvrez nos créations",
   "avantagesClients": [
-    "Large sélection de pâtisseries artisanales",
-    "Ingrédients de qualité pour des saveurs authentiques",
-    "Ambiance chaleureuse pour une expérience gourmande unique"
+    {
+      "icon": "assets/icon1.png",
+      "avantage": "Large sélection de pâtisseries artisanales"
+    },
+    {
+      "icon": "assets/icon2.png",
+      "avantage": "Ingrédients de qualité pour des saveurs authentiques"
+    },    {
+      "icon": "assets/icon3.png",
+      "avantage": "Ambiance chaleureuse pour une expérience gourmande unique"
+    }
   ],
   "produits": [
     {

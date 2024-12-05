@@ -53,12 +53,23 @@ a {
     background: #FFE5F1;
 }
 
+.bg2 {
+    background: #570026;
+}
 /* Titre + Texte */
 
 .text1 {
     color: black;
 }
 
+.text2 {
+    color: white;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
 /* Image */
 .imglogo {
     width: 100px;
@@ -93,13 +104,30 @@ header li {
 /* Bouton */
 
 .btn {
-    background-color: #570026;
-    padding: 16px 10px;
-    border-radius: 15px;
-    font-size: 25px;
-    color: white;
-    margin-top: 100px;
+	box-shadow:inset 0px 1px 0px 0px #fafafa;
+	background:linear-gradient(to bottom, #570026 5%, #bd433d 100%);
+	background-color:#570026;
+	border-radius:21px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9e1c13;
 }
+.btn:hover {
+	background:linear-gradient(to bottom, #bd433d 5%, #570026 100%);
+	background-color:#bd433d;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+        
 
 /* Hero */
 .hero {
@@ -111,12 +139,78 @@ header li {
 .phrasediv {
     width: 50%;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     text-align: center;
 }
 
 .h2Padding {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+}
+
+.iconediv {
+    width: 100%;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+
+.iconediv i {
+    font-size: 40px;  /* Augmenter la taille des icônes (ajuste selon le besoin) */
+    margin-bottom: 10px;  /* Ajoute un espace sous l'icône */
+    color: #570026;
+}
+
+/* Tag */
+
+.tag {        
+    padding: 10px 20px;           
+    background-color: #FFE5F1;  
+    color: black;                 
+    border-radius: 20px;  
+    width: 25%;              
+  }
+
+  /* Carte */
+
+  .card{
+    width: 30%;
+    box-shadow: 4px 4px 12px black; 
+    border-radius: 16px;
+    padding: 8px;
+    font-family: 'Inter','sans-serif';
+    flex-direction: column;
+    background-color: #FFE5F1;
+}
+
+.card img {
+    width: 100%; 
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+/* Card - Témoignage */
+
+.cardT{
+    width: 30%;
+    box-shadow: 4px 4px 12px #00000025; 
+    border-radius: 16px;
+    padding: 8px;
+    font-family: 'Inter','sans-serif';
+    flex-direction: column;
+}
+
+
+#Service {
+    background-image: url("https://images.unsplash.com/photo-1712723247649-35dda2670f1c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
 }

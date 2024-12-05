@@ -7,6 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link href="/your-path-to-uicons/css/uicons-rounded-regular.css" rel="stylesheet">
+    <link href="/your-path-to-uicons/css/uicons-rounded-bold.css" rel="stylesheet">
+    <link href="/your-path-to-uicons/css/uicons-rounded-solid.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,11 +20,11 @@
             <div class="flex spaceEvenly">
                 <nav class="navhd">
                     <ul class="flex spaceEvenly alignCenter">
-                        <li><a href="Service" title="Nos Services">Nos Services</a></li>
-                        <li><a href="Produit" title="Nos Produits">Nos Produits</a></li>
+                        <li><a href="#Service" title="Nos Services">Nos Services</a></li>
+                        <li><a href="#Produit" title="Nos Produits">Nos Produits</a></li>
                         <img src="assets/Logo_Patissier.png" alt="" class="imglogo">
-                        <li><a href="Témoignage" title="Vers Témoignage">Témoignage</a></li>
-                        <li><a href="Contact" title=" Vers Contact">Contact</a></li>
+                        <li><a href="#Témoignage" title="Vers Témoignage">Témoignage</a></li>
+                        <li><a href="#Contact" title=" Vers Contact">Contact</a></li>
                     </ul>
             </div>
         </div>
@@ -28,71 +32,78 @@
     <!-- SECTION (HERO) -->
     <main>
         <section class="hero">
-            <img src="assets/Patisserie.png" alt="" class="imgHero">
-            <div class="container phrasediv margin2O">
+            <div>
+                <img src="assets/Patisserie.png" alt="" class="imgHero">
+                <div class="container phrasediv margin2O">
                     <h2 class="h2Padding">Succombez à la délicatesse sucrée avec TouBon, votre pâtisserie gourmande à
                         Auxerre</h2>
-                    <a href="" title="Vers j'en profite" class="btn">J'en profite</a>
+                    <a href="" title="Vers j'en profite" class="btn center">J'en profite</a>
                 </div>
-                <div>
-                    <div>
+
+                <!-- avantage clients -->
+                <div id="divtag" class="iconediv flex spaceEvenly center">
+                    <div class="tag">
                         <img src="" alt="">
-                        <p>Large sélection</p>
+                        <p>Large sélection de pâtisseries artisanales</p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p>Ingrédients</p>
+                    <div class="tag">
+                        <img src="" alt=""><i class="fa-solid fa-cake-candles"></i>
+                        <p>Ingrédients de qualité pour des saveurs authentiques</p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p>Ambiance</p>
+                    <div class="tag">
+                        <img src="" alt=""><i class="fa-solid fa-face-smile-wink"></i>
+                        <p>Ambiance chaleureuse pour une expérience gourmande unique</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Produits -->
-        <section id="Produit">
-            <h3>Produit</h3>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+        <section id="Produit" class="bg2">
+            <div class="container flex spaceBetween margin">
+                <h3 class="margin text2">Produit</h3>
+                <div id="divProduit" class="flex spaceBetween center alignCenter margin">
+                    <div class="card">
+                        <img src="" alt="">
+                        <div>
+                            <h3>Éclair au Chocolat</h3>
+                            <p>Laissez-vous tenter par notre éclair au chocolat, une délicieuse pâtisserie faite maison.
+                                Une coque croquante et une crème onctueuse pour une explosion de saveurs</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+                    <div class="card">
+                        <img src="" alt="">
+                        <div>
+                            <h3>Éclair au Chocolat</h3>
+                            <p>Laissez-vous tenter par notre éclair au chocolat, une délicieuse pâtisserie faite maison.
+                                Une coque croquante et une crème onctueuse pour une explosion de saveurs</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+                    <div class="card">
+                        <img src="" alt="">
+                        <div>
+                            <h3>Éclair au Chocolat</h3>
+                            <p>Laissez-vous tenter par notre éclair au chocolat, une délicieuse pâtisserie faite maison.
+                                Une coque croquante et une crème onctueuse pour une explosion de saveurs</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- NOS SERVICES -->
-        <section id="Service">
-            <img src="" alt="">
-            <div>
-                <h3></h3>
-                <div>
-                    <img src="" alt="">
+        <section id="Service" class="bg">
+            <div class="container flex spaceBetween margin ">
+                <h3>Nos Services</h3>
+                <div id="divServ" class="flex spaceBetween center alignCenter margin card">
+                    <img src="" alt=""><i class="fa-solid fa-cake-candles"></i>
+                    <h4>Gâteaux Sur Mesure</h4>
+                    <p>Commandez des gâteaux sur mesure pour célébrer vos occasions spéciales. Des créations uniques et personnalisées pour rendre vos moments encore plus mémorables</p>
+                </div>
+                <div class="flex spaceBetween center alignCenter margin card"> 
+                    <img src="" alt=""><i class="fa-solid fa-book-open"></i>
                     <h4></h4>
                     <p></p>
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <h4></h4>
-                    <p></p>
-                </div>
-                <div>
+                <div class="flex spaceBetween center alignCenter margin card">
                     <img src="" alt="">
                     <h4></h4>
                     <p></p>
@@ -100,34 +111,52 @@
             </div>
         </section>
         <!-- NOS CLIENTS (TEMOIGNAGES) -->
-        <section id="Témoignage">
-            <div>
-                <h3></h3>
-            </div>
-            <div>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                <p></p>
-                <p></p>
-                <p></p>
+        <section id="Témoignage" class="bg">
+            <div id="divtemoignages" class="container flex spaceBetween">
+                
+                    <h3>Nos témoignage</h3>
+    
+                <div class="flex spaceBetween center alignCenter margin">
+                    <div class="cardT">
+                        <p>Sophie</p>
+                        <p>Macarons Variés</p>
+                        <p>Les macarons de TouBon sont une véritable explosion de saveurs.
+                            Chaque bouchée est un délice.
+                            Une pâtisserie incontournable à Auxerre !</p>
+                    </div>
+                    <div class="cardT">
+                        <p>Pierre</p>
+                        <p>Cours de Pâtisserie</p>
+                        <p>Les cours de pâtisserie chez TouBon sont divertissants et instructifs. J'ai appris à créer
+                            des
+                            desserts incroyables. Une expérience enrichissante !</p>
+                    </div>
+                    <div class="cardT">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusamus vel molestias
+                            rem
+                            nisi? Quia animi maiores rem porro molestias illo, consequuntur explicabo excepturi quam
+                            tempore
+                            vero veniam nulla quos.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sequi repellat? Dolor
+                            eligendi
+                            in incidunt itaque animi doloribus ab, unde ex accusantium non vitae deserunt reiciendis
+                            necessitatibus beatae rem assumenda?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis eius dicta quasi dolor
+                            officiis quam, eveniet, sequi esse ratione in commodi quisquam? Reiciendis, praesentium.
+                            Enim
+                            dolore voluptatibus repudiandae veritatis esse.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <!-- Footer -->
     <footer id="Contact">
         <div>
-            <h1>TouBon - Pâtisserie à Auxerre</h1>
-            <p></p>
-            <p></p>
-            <p></p>
+            <h1></h1>
+            <p>Rue</p>
+            <p>Num</p>
+            <p>Mail</p>
         </div>
         <div>
             <ul>
