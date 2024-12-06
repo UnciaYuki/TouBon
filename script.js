@@ -106,7 +106,7 @@ function AfficheTemoignage(temoignages) {
 `
     <div class="cardT">
                         <p>${prenom}</p>
-                        <p>★${note}</p>
+                        <p>★ ${note}</p>
                         <p>${typeExperience}</p>
                         <p>${commentaire}</p>
                     </div>
